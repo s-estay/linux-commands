@@ -33,6 +33,8 @@
 - add specific file: `git add index.html`
 - view differences between working directory and repository: `git diff`
 - view differences between staging area and repository: `git diff --staged`
+- delete file on working directory and repository (commit to recover file): `git rm` + file name
+- rename file: `git mv` + original file name + new file name
 
 ## References
 - [Markdown-Cheatsheet]
