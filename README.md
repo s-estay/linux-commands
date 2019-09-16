@@ -50,15 +50,15 @@
 - Give the address to the newly created repository a short name: `git remote add` + remote repository name (default: origin) + repository address
 - Get the short name of the remote repository: `git remote`
 - Add files or make changes to the remote repository (**push**): `git push -u` + remote repository name + `master`
-- Add image to README.md: move image to the project folder, add, commit, and push, then copy the link to the image and do `![](image link)`
+- Add image to README.md: move image to the project folder, add, commit, and push, then copy the link to the image and do `![](image link)` and push again
 
 ## References
 - [Markdown-Cheatsheet]
-- [Git Staging Area]
-- [Git Tutorials Playlist]
+- [Git staging area]
+- [Bucky Roberts's git tutorials playlist]
 
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Atom]: https://atom.io/
 [Git staging area]: https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
-[Git tutorials playlist]: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
+[Bucky Roberts's git tutorials playlist]: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 [Github]: https://github.com/
