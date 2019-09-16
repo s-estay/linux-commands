@@ -25,14 +25,19 @@
 - start the project with a README.md file
 
 ## Git
-- add all changes: `git add .`
+- add all changes/files (to the staging area): `git add .`
 - commit changes: `git commit -m` + "comment"
 - view commit history: `git log`
 - view a specific person's commit history: `git log --author="name"`
 - are there new uncommitted changes och new uncommitted files?: `git status`
+- add specific file: `git add index.html`
+- view differences between working directory and repository: `git diff`
+- view differences between staging area and repository: `git diff --staged`
 
 ## References
 - [Markdown-Cheatsheet]
+- [Git Staging Area]
 
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Atom]: https://atom.io/
+[Git Staging Area]: https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
