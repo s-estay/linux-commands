@@ -35,6 +35,11 @@
 - view differences between staging area and repository: `git diff --staged`
 - delete file on working directory and repository (commit to recover file): `git rm` + file name
 - rename file: `git mv` + original file name + new file name
+- move file to folder inside project folder: `git mv` + file name + folder/file name
+- commit directly from the working directory to the repository (don't use when moving/deleting files): skip `git add` and do `git commit -am` + "comment"
+- revert changes (make the repository file, the working file): `git checkout --` + file name
+- unstage file: `git reset HEAD` + file name
+- go back to a previous commit: `git checkout` + commit id + `--` + file name 
 
 ## References
 - [Markdown-Cheatsheet]
