@@ -3,7 +3,7 @@
 - `sudo apt-get install git-core`
 - `git --version`
 - `git config --global user.name "user name"`
-- `git config --global user.mail "user mail"`
+- `git config --global user.email "user mail"`
 - `git config --list`
 
 ## Create project
@@ -26,7 +26,7 @@
 
 ## Git
 - add all changes: `git add .`
-- commit changes: `git commit -m` + comment
+- commit changes: `git commit -m` + "comment"
 - view commit history: `git log`
 - view a specific person's commit history: `git log --author="name"`
 
