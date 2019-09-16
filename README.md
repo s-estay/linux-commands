@@ -29,6 +29,7 @@
 - commit changes: `git commit -m` + "comment"
 - view commit history: `git log`
 - view a specific person's commit history: `git log --author="name"`
+- are there new uncommitted changes och new uncommitted files?: `git status`
 
 ## References
 - [Markdown-Cheatsheet]
