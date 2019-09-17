@@ -25,7 +25,7 @@
 - start the project with a README.md file
 
 ## Git
-- **add** all changes/files (to the staging area): `git add .`
+- **add** all changes/files (to the staging area): `git add --all`
 - **commit** changes: `git commit -m` + "comment"
 - view commit history: `git log`
 - view a specific person's commit history: `git log --author="name"`
