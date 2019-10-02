@@ -75,8 +75,20 @@
   - `git status`
   - `git add --all`
   - `git commit -m` + comment
-  - `git pull` (GitHub will ask for the SSH passphrase)
-  - `git push`
+  - `git pull` (remote to local)(fetch + merge)(GitHub will ask for the SSH passphrase)
+  - `git push` (local to remote)
+  
+## Add .gitignore
+- create file in nano: `nano .gitignore`
+  - *.txt (ignore all .txt files)
+  - file.text (ignore this file in particular)
+  - folder/ (ignore this folder)
+- save file and exit nano: Ctrl + X
+- remove folder: `rm -rf` + folder
+- remove file: `rm` + file
+- `git add --all`
+- `git commit -m` + comment
+- `git push`
 
 ## References
 - [Markdown-Cheatsheet]
