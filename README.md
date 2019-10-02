@@ -52,13 +52,35 @@
 - Add files or make changes to the remote repository (**push**): `git push -u` + remote repository name + `master`
 - Add image to README.md: move image to the project folder, add, commit, and push, then copy the link to the image and do `![](image link)` and push again
 
+## SSH keys
+- check for existing SSH keys: `ls -la ~/.ssh`
+  - default public keys filenames:
+    - id_dsa.pub
+    - id_ecdsa.pub
+    - id_ed25519.pub
+    - id_rsa.pub
+- generate a new SSH key: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+  - when prompted *Enter a file in which to save the key*, press Enter for default location
+  - when prompted *Enter passphrase*, enter passphrase
+- start the ssh-agent: `eval "$(ssh-agent -s)"`
+- add SSH private key to the ssh-agent: `ssh-add ~/.ssh/id_rsa` (default location)
+- download and installs **xclip**: `sudo apt-get install xclip`
+- copy SSH key to clipboard: `xclip -sel clip < ~/.ssh/id_rsa.pub` (default location)
+- on Github, click on profile image, Settings, SSH and GPG keys, New SSH key, add descriptive Title and paste SSH key
+- test SSH connection: `ssh -T git@github.com`
+- clone repository using SSH key:
+  - click **Clone or download**, Clone with SSH, copy link
+  - in the terminal, move to the destination folder, `git clone` + copied git link
+
 ## References
 - [Markdown-Cheatsheet]
 - [Git staging area]
 - [Bucky Roberts's git tutorials playlist]
+- [Connecting to GitHub with SSH]
 
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Atom]: https://atom.io/
 [Git staging area]: https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
 [Bucky Roberts's git tutorials playlist]: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 [Github]: https://github.com/
+[Connecting to GitHub with SSH]: https://help.github.com/en/articles/connecting-to-github-with-ssh
