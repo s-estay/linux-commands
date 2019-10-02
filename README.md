@@ -71,6 +71,12 @@
 - clone repository using SSH key:
   - click **Clone or download**, Clone with SSH, copy link
   - in the terminal, move to the destination folder, `git clone` + copied git link
+- when using a SSH key and editing both remotely and locally:
+  - `git status`
+  - `git add --all`
+  - `git commit -m` + comment
+  - `git pull` (GitHub will ask for the SSH passphrase)
+  - `git push`
 
 ## References
 - [Markdown-Cheatsheet]
