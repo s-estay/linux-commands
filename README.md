@@ -6,7 +6,7 @@
 - `git config --global user.email "user mail"`
 - `git config --list`
 
-## Create project
+## Terminal
 - show current directory: `pwd`
 - list of files in the current directory: `ls`
 - list of files in the current directory including hidden files: `ls -la`
