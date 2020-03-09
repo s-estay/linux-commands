@@ -16,6 +16,7 @@
 - create folder: `mkdir` + folder name
 - clear terminal: `clear`
 - exit terminal: `exit`
+- space in disk: `df -h`
 
 ## Install Atom
 - go to the [Atom] website
